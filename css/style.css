@@ -1,0 +1,78 @@
+i {
+  color: #228be6;
+}
+a {
+  color: #333 !important;
+}
+* {
+  list-style: none;
+  text-decoration: none !important;
+}
+.my-bg-img {
+  display: block;
+  background-image: linear-gradient(
+      rgba(36, 36, 36, 0.3),
+      rgba(36, 36, 36, 0.3)
+    ),
+    url(https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-size: cover;
+  height: 40vh;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  scale: 2;
+  border: #ffffff 3px solid;
+}
+.gray {
+  background-color: #eaeef1;
+}
+.ionicon {
+  width: 15px;
+  stroke: #228be6;
+  fill: #228be6;
+  position: absolute;
+  left: -0.5rem;
+  top: 9px;
+}
+.title-stask {
+  position: relative;
+}
+.skill-level {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 30px;
+}
+.grid-max-width {
+  grid-column: 1/-1;
+}
+.mini-icon {
+  stroke: #228be6;
+  width: 40px;
+  border: #228be6 1px solid;
+  border-radius: 50%;
+  padding: 8px;
+}
+.like,
+.my-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.a-like {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+/* CSS icon có hình tròn - Sở Thích */
+.blue {
+  border: 1px solid #228be6;
+}
+
+/* khoảng cách giữa các grid item */
+.my-grid {
+  column-gap: 40px;
+}

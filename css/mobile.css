@@ -1,0 +1,6 @@
+/* mobile divice */
+@media (max-width: 768px) {
+  .my-grid {
+    display: block;
+  }
+}
